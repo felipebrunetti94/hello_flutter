@@ -65,7 +65,7 @@ class _RegisterPageState extends State<RegisterPage> {
                 child: Text('Login')),
             ElevatedButton(
                 onPressed: () {
-                  Navigator.pop(context);
+                  Navigator.pushNamed(context, '/login');
                 },
                 child: Text('already have an account'))
           ],
